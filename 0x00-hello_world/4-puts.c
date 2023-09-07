@@ -2,9 +2,8 @@
 
 /**
  * main - Entry point of the program
- *
  * Description: Prints a message using the `puts` function
- *              and returns 0 to indicate successful execution.
+ * and returns 0 to indicate successful execution.
  *
  * Return: Always 0 (Success)
  */
