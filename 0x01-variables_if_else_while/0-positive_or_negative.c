@@ -3,26 +3,31 @@
 #include <time.h>
 
 /**
- * main - Entry point of the program
+ *main - Entry point of the program
  *
- * Return: 0 (Success)
+ *Return: 0 (Success)
  */
 int main(void)
 {
-int n;
+	int n;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-printf("%d is ", n);
+	printf("%d is ", n);
 
-  	if (n > 0) 
-  		printf("positive\n");
-   	else if (n == 0) 	
-		 printf("zero\n");
-       	else 
-        	printf("negative\n");
-   
+	if (n > 0)
+	{
+		printf("positive\n");
+	}
+	else if (n == 0)
+	{
+		printf("zero\n");
+	}
+	else
+	{
+		printf("negative\n");
+	}
 
-return (0);
+	return (0);
 }
