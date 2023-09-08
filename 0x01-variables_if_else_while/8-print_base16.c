@@ -4,8 +4,6 @@
  *main - Entry point of the program
  *
  *Prints all the numbers of base 16 in lowercase,
- *              
- *
  *Return: Always 0 (Success)
  */
 int main(void)
