@@ -4,7 +4,7 @@
  *main - Entry point of the program
  *
  *Description: Prints the lowercase alphabet in reverse, followed by a new line,
- *             using only the putchar function twice.
+ *
  *
  *Return: Always 0 (Success)
  */
