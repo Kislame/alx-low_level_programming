@@ -5,7 +5,7 @@
  *
  *Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	char current_char = 'a';
 
@@ -17,5 +17,5 @@ int main()
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
