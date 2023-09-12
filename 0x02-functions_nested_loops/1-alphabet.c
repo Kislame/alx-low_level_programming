@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *print_alphabet
+ *print_alphabet function
+ *using putchar twice
  *followed by a new line
  */
 void print_alphabet(void)
